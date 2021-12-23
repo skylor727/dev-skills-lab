@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.list-parent {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  text-align: left;
+  color: orange;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.list-parent > li {
+    padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: deepskyblue;
+  color: ghostwhite;
+  padding: 20px 10px;
+}
+
+.add-skill {
+  border: 1px solid deepskyblue;
+  background-color: transparent;
+  color: deepskyblue;
+  height: 30px;
+  width: 180px;
+  cursor: pointer;
+  
+}
+button.add-skill {
+  margin-left: 10px;
+}
+
+input.add-skill{
+    color: black;
+}
+
+button.add-skill:hover {
+ color: gray;
+}
+.delete {
+  background-color: rgb(204, 57, 57);
+  color: white;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 3px;
+}
